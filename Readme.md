@@ -1,6 +1,6 @@
 # labyrinth
 
-This is a personal project to build Automatic Speech Recognition models. The objective is to avoid the massive amount of utility that projects like [kaldi](https://github.com/kaldi-asr/kaldi) lend to a developer and build those as and when needed. The idea is not to build the same tools/re-invent the wheel but to understand mainly:
+This is a personal project to build Automatic Speech Recognition models. The objective is to avoid the massive amount of utility that projects like [kaldi](https://github.com/kaldi-asr/kaldi) lend to a developer and build those as and when needed. To understand mainly:
 
 - Why are certain tools used?
 - What is the theoretical background behind the recipes?
@@ -22,7 +22,13 @@ This is a personal project to build Automatic Speech Recognition models. The obj
 - [ ] Metrics
   - [ ] Use a popular open source data-set for publishing results.
 
+## docs/
+A themed notebook is saved in `./docs` for faster access. Prepared by:
+```
+jupyter nbconvert --to html am_training.ipynb --output index.html 
+```
 
 ## Choice of name?
 
 > Fish, the first vertebrates, arose between 450 and 600 million years ago, a mere one tenth of the age of our planet. Primitive fish had an internal balance organ inherited from some obscure invertebrate ancestor. Eventu-ally, the balance labyrinth came to include an auditory receptor. --[Development of Hearing. Part I: Phylogeny ](https://www.audiology.org/sites/default/files/journal/JAAA_05_05_02.pdf)
+
