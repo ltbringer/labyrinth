@@ -22,8 +22,8 @@ This is a personal project to build Automatic Speech Recognition models. The obj
 - [ ] Metrics
   - [ ] Use a popular open source data-set for publishing results.
 
-## docs/
-A themed notebook is saved in `./docs` for faster access. Prepared by:
+## Read only?
+A themed notebook is available [here](https://ltbringer.github.io/labyrinth/) for faster access. Prepared by:
 ```
 jupyter nbconvert --to html am_training.ipynb --output index.html 
 ```
